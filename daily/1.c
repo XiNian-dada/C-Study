@@ -1,3 +1,4 @@
+//用指针写的立方和
 #include <stdio.h>
 #include <stdlib.h>
 
