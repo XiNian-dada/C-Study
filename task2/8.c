@@ -1,3 +1,7 @@
+/*
+8. P1598 [USACO03FEB] 垂直柱状图 Vertical Histogram
+https://www.luogu.com.cn/problem/P1598
+*/
 #include <stdio.h>
 int main() {
     char input;

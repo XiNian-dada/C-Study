@@ -1,3 +1,7 @@
+/*
+4. P1420 最长连号
+https://www.luogu.com.cn/problem/P1420
+*/
 #include <stdio.h>
 int main() { 
     int num;

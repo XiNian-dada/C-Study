@@ -1,3 +1,7 @@
+/*
+6. P5730 【深基5.例10】显示屏
+https://www.luogu.com.cn/problem/P5730
+*/
 #include <stdio.h>
 int main() { 
     char list_0_1[4]={'X','X','X','\0'};

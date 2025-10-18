@@ -1,3 +1,7 @@
+/*
+1. P3954 [NOIP 2017 普及组] 成绩
+https://www.luogu.com.cn/problem/P3954
+*/
 #include <stdio.h>
 
 int main()

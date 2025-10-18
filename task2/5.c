@@ -1,3 +1,8 @@
+/*
+5. P1217 [USACO1.5] 回文质数 Prime Palindromes
+https://www.luogu.com.cn/problem/P1217
+*/
+
 #include <stdio.h>
 
 int num(int n){

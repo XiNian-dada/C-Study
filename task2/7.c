@@ -1,3 +1,7 @@
+/*
+7. P1205 [USACO1.2] 方块转换 Transformations
+https://www.luogu.com.cn/problem/P1205
+*/
 #include <stdio.h>
 #include <string.h>
 

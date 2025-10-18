@@ -1,3 +1,7 @@
+/*
+3. P1307 [NOIP 2011 普及组] 数字反转
+https://www.luogu.com.cn/problem/P1307
+*/
 #include <stdio.h>
 
 int main() {

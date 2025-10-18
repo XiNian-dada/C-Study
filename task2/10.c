@@ -1,3 +1,8 @@
+/*
+10. P5742 【深基7.例11】评等级
+https://www.luogu.com.cn/problem/P5742
+
+*/
 #include <stdio.h>
 struct student{
     int id;

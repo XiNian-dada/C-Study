@@ -1,3 +1,7 @@
+/*
+3. P1928 外星密码（可能有点难）
+https://www.luogu.com.cn/problem/P1928
+*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

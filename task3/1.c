@@ -1,3 +1,7 @@
+/*
+1. P1010 [NOIP 1998 普及组] 幂次方
+https://www.luogu.com.cn/problem/P1010
+*/
 #include <stdio.h>
 #include <math.h>
 void divide(int x){

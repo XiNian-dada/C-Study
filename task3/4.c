@@ -1,3 +1,7 @@
+/*
+4. P1068 [NOIP 2009 普及组] 分数线划定
+https://www.luogu.com.cn/problem/P1068
+*/
 #include <stdio.h>
 
 typedef struct{
