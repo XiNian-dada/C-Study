@@ -1,3 +1,7 @@
+/*
+2. P10417 [蓝桥杯 2023 国 A] 第 K 小的和（二分查找+二分答案）
+https://www.luogu.com.cn/problem/P10417
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #define ll long long
