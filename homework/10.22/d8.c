@@ -27,7 +27,7 @@ int main(){
     int m[10000];
     scanf ("%d", &n);
     for (int i = 0; i < n; i++){
-        scanf ("%d", &m[i]);
+        scanf ("%d\n", &m[i]);
     }
     for (int i = 0; i < n; i++){
         if (m[i] < 0){
