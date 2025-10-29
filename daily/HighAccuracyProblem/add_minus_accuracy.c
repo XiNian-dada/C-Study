@@ -2,6 +2,8 @@
 #define MAX_SIZE 500
 #define ll long long
 
+
+
 typedef struct titan_number{
     int num[MAX_SIZE];
     int is_negative; //1表示负数，0表示正数
