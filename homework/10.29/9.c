@@ -54,9 +54,12 @@ int devide_number(int a){//定义函数，入参为一个int
     }
     
 }
+int digital_root(int n) {return (n - 1) % 9 + 1;} //公式法，逆天吧
 int main(){
     int input;
     scanf("%d", &input);
-    //递归问题，假设这个数有限，并且结果一定为个位数
+    printf("%d",(input - 1) % 9 + 1);
+    printf("%d", digital_root(input));
     printf("%d", devide_number(input));
 }
+

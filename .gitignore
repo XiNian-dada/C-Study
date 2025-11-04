@@ -1,16 +1,25 @@
 .vscode/tasks.json
 .vscode/settings.json
-daily/Forfun.exe
-daily/temp.exe
-homework/10.29/1.exe
-homework/10.29/10.exe
-homework/10.29/8.exe
-homework/10.29/6.exe
-homework/10.29/5.exe
-homework/10.29/4.exe
-homework/10.29/3.exe
-homework/10.29/2.exe
-homework/10.29/9.exe
-homework/10.29/7.exe
-homework/10.22/d5.exe
+# 可执行文件
+*.exe
+*.out
+*.app
+
+# 对象文件
+*.o
+*.obj
+
+# 库文件
+*.dll
+*.so
+*.dylib
+
+# 编译目录
+build/
+dist/
 daily/factorial.exe
+.idea/C.iml
+.idea/editor.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/.gitignore
