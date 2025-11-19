@@ -1,5 +1,4 @@
 #include "stdio.h"
-#include "math.h"
 /*
  * 题目描述：数组的距离
  * 
@@ -36,9 +35,9 @@
 int main(){
     int n,m,nl[1000],ml[1000],max_1=0,min_1=1000,max_2=0,min_2=1000;
     scanf("%d",&n);
-    for(int i=0;i<n;scanf("%d",&nl[i]),i++);
+    for(int i=0;i<n;scanf("%d",&nl[i++]));
     scanf("%d",&m);
-    for(int i=0;i<m;scanf("%d",&ml[i]),i++);
+    for(int i=0;i<m;scanf("%d",&ml[i++]));
     for(int i=0;i<m;max_1 = ml[i]>max_1?ml[i]:max_1,min_1 = ml[i]<min_1?ml[i]:min_1,i++);
     for(int i=0;i<n;max_2 = nl[i]>max_2?nl[i]:max_2,min_2 = nl[i]<min_2?nl[i]:min_2,i++);
     printf("%d\n",(max_1-min_2 > max_2-min_1?max_1-min_2:max_2-min_1) < 0 ? -((max_1-min_2 > max_2-min_1?max_1-min_2:max_2-min_1)):(max_1-min_2 > max_2-min_1?max_1-min_2:max_2-min_1));
