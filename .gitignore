@@ -4,7 +4,8 @@
 *.exe
 *.out
 *.app
-
+*.jpg
+*.png
 # 对象文件
 *.o
 *.obj
@@ -25,3 +26,6 @@ daily/factorial.exe
 .idea/.gitignore
 daily/training_data.txt
 daily/training_data.txt
+daily/convolution_CNNs/ImageCNNs/cats/_DS_Store
+daily/convolution_CNNs/ImageCNNs/dogs/_DS_Store
+*.bin
