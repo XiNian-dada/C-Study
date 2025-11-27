@@ -56,12 +56,19 @@ int main(){
 
 /*
 sample temp
+    j0                j5
+i5
 
-x1y1 x2y1 x3y1  x4y1 x5y1
+
+
+i0
+
+i 0                  i 5
+x1y1 x2y1 x3y1  x4y1 x5y1 j 0
 x1y2 x2y2 x3y2  x4y2 x5y2
 x1y3 x2y3 x3y3* x4y3 x5y3
 x1y4 x2y4 x3y4  x4y4 x5y4
-x1y5 x2y5 x3y5  x4y5 x5y5
+x1y5 x2y5 x3y5  x4y5 x5y5 j 5
 
 rotation r;
 
