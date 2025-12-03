@@ -1,21 +1,25 @@
-//用指针写的立方和
-#include <stdio.h>
-#include <stdlib.h>
-
-int main()
-{
-    int arr[3];
-    int result = 0;
-    
-    scanf("%d %d %d", &arr[0], &arr[1], &arr[2]);
-    int* first_ptr = arr;
-    for (int i = 0; i<3 ;i++){
-        int temp = 1;
-        for (int j = 0 ; j<3 ;j++){
-            temp = temp * *first_ptr;
-        }
-        first_ptr++;
-        result = result + temp;
+#include "stdio.h"
+#include "stdlib.h"
+#include "string.h"
+int main(){
+    char str[10];
+    fgets(str,10,stdin);
+    int len = strlen(str);
+    if(str[len-1] == '\n') len--; 
+    int list[10];
+    for(int i = len-1;i>=0;i--){
+        list[i] = str[i]-'0';
     }
-    printf("%d",result);
+    int flag = 0;
+    int sum = 0;
+    for(int i = 0;i<len;i++){
+        if(flag == 0){
+            sum += list[i];
+            flag = 1;
+        }else if(flag == 1){
+            sum -= list[i];
+            flag = 0;
+        }
+    }
+    printf("%d\n",sum);
 }
