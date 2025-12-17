@@ -90,43 +90,45 @@
  * - 对于每个格子(i,j)，根据row_mark[i]和col_mark[j]决定输出字符
  * - 注意行列编号从1开始，数组下标从0开始
  */
+#include "stdio.h"
+#include "stdlib.h"
+
 int main(){
-    int n,m,q,k;
-    scanf("%d %d %d %d",&n,&m,&q,&k);
-    int a[n][m];
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < m; j++){
-            a[i][j] = 0;
-        }
-    }
+    int n, m, q, k;
+    scanf("%d %d %d %d", &n, &m, &q, &k);
+
+    int *row_mark = (int*)calloc(n, sizeof(int));
+    int *col_mark = (int*)calloc(m, sizeof(int));
+
     for(int i = 0; i < q; i++){
         int x;
-        scanf("%d",&x);
-        for(int j = 0; j < m ; j++){
-            a[x-1][j] += 1;
-        }
+        scanf("%d", &x);
+        row_mark[x-1] = 1;  
     }
-    for (int i = 0; i < k; i++){
-        int y;
-        scanf("%d",&y);
-        for(int j = 0; j < n; j++){
-            a[j][y-1] += 2;
-        }
-    }
+    
 
+    for(int i = 0; i < k; i++){
+        int y;
+        scanf("%d", &y);
+        col_mark[y-1] = 1;  
+    }
+    
     for(int i = 0; i < n; i++){
         for(int j = 0; j < m; j++){
-            if(a[i][j] == 0){
-                printf("0");
-            }else if(a[i][j] == 1){
-                printf("-");
-            }else if(a[i][j] == 2){
-                printf("|");
-            }else if(a[i][j] == 3){
-                printf("+");
+            if(row_mark[i] && col_mark[j]){
+                printf("+");     
+            } else if(row_mark[i]){
+                printf("-");     
+            } else if(col_mark[j]){
+                printf("|");     
+            } else {
+                printf("0");    
             }
         }
         printf("\n");
-
     }
+    
+    free(row_mark);
+    free(col_mark);
+    return 0;
 }

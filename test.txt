@@ -1,0 +1,24 @@
+4
+aegsdavdGUI+++
+UIHEFUiohaefoucbu av
+ass
+BULLSHIT
+aegsdavdGUI+++-UIHEFUiohaefoucbu av:2-0
+aegsdavdGUI+++-ass:3-1
+aegsdavdGUI+++-BULLSHIT:4-2
+UIHEFUiohaefoucbu av-ass:3-2
+UIHEFUiohaefoucbu av-BULLSHIT:2-0
+ass-BULLSHIT:3-1
+
+
+4
+Team1
+Te am2
+Team3
+Team4
+Team1-Te am2:2-0
+Team1-Team3:3-1
+Team1-Team4:4-2
+Te am2-Team3:3-2
+Te am2-Team4:2-0
+Te am3-Team4:3-1 
